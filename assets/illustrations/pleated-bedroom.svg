@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 870" role="img" aria-label="Демонстрационная иллюстрация интерьера">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e2e6e2"/><stop offset="1" stop-color="#f0f2ee"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b4ccd3"/><stop offset="1" stop-color="#e6e6dc"/></linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a79b8d"/><stop offset="1" stop-color="#988f82"/></linearGradient>
+    <linearGradient id="fabric" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c8d5d4"/><stop offset=".35" stop-color="#a4b3ba"/><stop offset=".7" stop-color="#c8d5d4"/><stop offset="1" stop-color="#a4b3ba"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".5"/><stop offset="1" stop-color="#8eaaa7" stop-opacity="0"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="180%"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".32" numOctaves="2" seed="4" stitchTiles="stitch" result="n"/><feColorMatrix in="n" type="saturate" values="0"/></filter>
+  </defs>
+  <rect width="1200" height="870" fill="url(#wall)"/>
+  <path d="M0 690H1200V870H0Z" fill="url(#wood)"/><path d="M0 690H1200" stroke="#d6cfc3" stroke-width="9"/>
+  <path d="M74 0V688M1095 0V688" stroke="#fff" stroke-opacity=".24" stroke-width="8"/>
+  <rect x="286" y="91" width="625" height="577" rx="3" fill="#c8c9c1" opacity=".55" filter="url(#shadow)"/>
+  <rect x="264" y="70" width="650" height="588" rx="6" fill="#f3f3ee"/>
+  <rect x="279" y="86" width="620" height="556" fill="url(#sky)"/>
+  <path d="M280 432c80-83 136-43 205-106s138-50 198 0 139-41 216-14v327H280Z" fill="#849f98" fill-opacity=".13"/>
+  <path d="M302 641V441h65V353h64v287m36 0V319h89v322m74 0V394h82v247m54 0V336h77v305" stroke="#647c7a" stroke-opacity=".10" stroke-width="18" fill="none"/>
+  <path d="M580 86V641M280 375h620" stroke="#faf9f4" stroke-width="17"/><path d="M586 86V641" stroke="#babeb7" stroke-opacity=".25" stroke-width="2"/>
+  <path d="M296 100V630l295-5V100Z" fill="url(#glass)" opacity=".2"/>
+  <path d="M256 68H921" stroke="#64605b" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="260" cy="68" r="10" fill="#79716a"/><circle cx="919" cy="68" r="10" fill="#79716a"/>
+  <rect x="293" y="91" width="594" height="421" fill="#a4b3ba"/>
+    <path d="M294 122H886M294 152H886M294 182H886M294 212H886M294 242H886M294 272H886M294 302H886M294 332H886M294 362H886M294 392H886M294 422H886M294 452H886M294 482H886" stroke="#c8d5d4" stroke-width="6" stroke-opacity=".48"/>
+    <rect x="292" y="507" width="596" height="10" rx="4" fill="#a2a19b"/><ellipse cx="550" cy="803" rx="432" ry="51" fill="#5b554f" fill-opacity=".18" filter="url(#shadow)"/>
+    <rect x="66" y="524" width="919" height="172" rx="37" fill="#8f928d"/>
+    <rect x="87" y="601" width="863" height="177" rx="31" fill="#eae6de"/>
+    <path d="M96 648Q513 608 943 649v99Q520 786 96 748Z" fill="#b4c4ba"/>
+    <rect x="144" y="558" width="249" height="81" rx="22" fill="#fbf9f1"/><rect x="572" y="558" width="249" height="81" rx="22" fill="#fbf9f1"/>
+    <path d="M110 766h38m750 0h38" stroke="#66625a" stroke-width="17"/>
+    <rect x="978" y="587" width="135" height="18" rx="3" fill="#9f806b"/><path d="M997 605v142m99-142v142" stroke="#7d6758" stroke-width="8"/>
+    <rect x="1025" y="544" width="32" height="42" rx="13" fill="#d9d1bc"/><path d="M1041 544v-55" stroke="#6c6259" stroke-width="5"/><path d="M1041 500q-44-38-66 0m66 0q44-38 66 0" stroke="#7d988a" stroke-width="15" fill="none"/><path d="M1040 0v254" stroke="#4b4a45" stroke-width="5"/><path d="M983 251q53-83 114 0Z" fill="#e2dacd"/><circle cx="1040" cy="256" r="11" fill="#f6e7bb"/>
+    <path d="M939 285l-55 176h310l-76-176Z" fill="#f8e3ac" fill-opacity=".12"/><rect width="1200" height="870" filter="url(#grain)" opacity=".025" pointer-events="none"/>
+    <rect x="5" y="5" width="1190" height="860" rx="6" fill="none" stroke="#5d554e" stroke-opacity=".09" stroke-width="10"/></svg>
